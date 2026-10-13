@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#083c2c" />
+  <meta name="description" content="زاد وملح | مطبخ منزلي يقدم الأطباق الرئيسية والسلطات والوجبات الصحية والمقبلات بنكهات بيتية أصيلة." />
+  <title>زاد وملح | مطبخ منزلي بنكهة البيت</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar"><span class="spark">✦</span> أكل طيب بنكهة مميزة، محضّر بحب <span class="spark">✦</span></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="زاد وملح - الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M13 30C7 29 5 24 7 19c2-4 6-6 10-5 1-6 6-10 12-9 6 1 9 5 10 10 6 0 9 4 8 10-1 4-4 6-9 7v8H14v-9" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 35h23M15 41h23" stroke="currentColor" stroke-width="2.7" stroke-linecap="round"/></svg></span>
+        <span class="brand-text"><strong>زاد وملح</strong><small>مطبخ منزلي</small></span>
+      </a>
+      <button class="mobile-menu-toggle" id="menuToggle" type="button" aria-label="فتح قائمة الأقسام" aria-controls="mainNav" aria-expanded="false"><span aria-hidden="true">☰</span></button>
+      <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي">
+        <a href="#top" class="active">الرئيسية</a><a href="#menu">قائمة الطعام</a><a href="#plans">الاشتراكات</a><a href="#about">عن مطبخنا</a>
+      </nav>
+      <button class="cart-trigger" id="cartOpen" type="button" aria-label="فتح سلة الطلبات">
+        <span class="cart-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2 11h11l3-8H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></span>
+        <span>طلباتي</span><span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-lines" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="tiny-leaf">❧</span> من قلب مطبخنا لبيتكم <span class="tiny-leaf">❧</span></div>
+          <h1 id="heroTitle">الطعم البيتي، <br><em>بحبّ وملح.</em></h1>
+          <p>أكلات من القلب، بمكونات مختارة ونكهات أصيلة. من أطباقنا الرئيسية إلى سلطاتنا الطازجة، كل وجبة إلها حكاية.</p>
+          <div class="hero-buttons"><a href="#menu" class="btn btn-gold">استكشف قائمة الطعام <span aria-hidden="true">←</span></a><button type="button" class="btn btn-outline" id="heroCart">جهّز طلبك <span aria-hidden="true">＋</span></button></div>
+          <div class="hero-points"><span><i>✓</i> مكونات طازجة</span><span><i>✓</i> طعم منزلي أصيل</span><span><i>✓</i> خيارات متنوعة</span></div>
+        </div>
+        <div class="hero-art" aria-label="صور من أطباق زاد وملح">
+          <div class="art-glow"></div>
+          <div class="hero-photo hero-photo-main"><img src="assets/main-0-0.webp" alt="طبق كبسة من زاد وملح" /></div>
+          <div class="hero-photo hero-photo-side"><img src="assets/salad-0-0.webp" alt="سلطة فتوش طازجة" /></div>
+          <div class="hero-photo hero-photo-small"><img src="assets/main-0-1.webp" alt="طبق منسف" /></div>
+          <div class="hero-seal"><span>زاد وملح</span><small>طعم من البيت</small><b>✦</b></div>
+          <span class="art-decoration d1" aria-hidden="true">✧</span><span class="art-decoration d2" aria-hidden="true">❧</span>
+        </div>
+      </div>
+      <div class="hero-curve" aria-hidden="true"></div>
+    </section>
+    <section class="promise-bar" aria-label="مميزات مطبخنا">
+      <div class="container promise-row"><div><span class="feature-symbol">❋</span><span><b>مكونات منتقاة</b><small>نختارها بعناية</small></span></div><div><span class="feature-symbol">♡</span><span><b>صُنع بحب</b><small>مثل أكل البيت</small></span></div><div><span class="feature-symbol">✿</span><span><b>طعم أصيل</b><small>نكهات بتجمعنا</small></span></div><div><span class="feature-symbol">♧</span><span><b>خيارات للجميع</b><small>وجبات وسلطات وصحي</small></span></div></div>
+    </section>
+    <section class="menu-section section-space" id="menu" aria-labelledby="menuTitle">
+      <div class="container">
+        <div class="section-intro"><span class="section-kicker">❧ من مطبخنا ❧</span><h2 id="menuTitle">قائمة <span>الطعام</span></h2><p>اختار أكلك على مزاجك، وحدّد الحجم المناسب، واجمع طلبك بكل سهولة.</p></div>
+        <div class="menu-controls"><div class="category-tabs" id="categoryTabs" role="group" aria-label="تصفية حسب القسم"><button type="button" class="filter-btn selected" data-filter="all" aria-pressed="true">كل الأصناف</button><button type="button" class="filter-btn" data-filter="main" aria-pressed="false">الأطباق الرئيسية</button><button type="button" class="filter-btn" data-filter="salad" aria-pressed="false">السلطات</button><button type="button" class="filter-btn" data-filter="healthy" aria-pressed="false">الأكل الصحي</button><button type="button" class="filter-btn" data-filter="app" aria-pressed="false">المقبلات</button></div><label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="menuSearch" type="search" placeholder="دوّر على أكلك المفضل..." autocomplete="off" aria-label="بحث في قائمة الطعام" /></label></div>
+        <div class="menu-meta"><h3 id="currentCategory">كل الأصناف <span class="menu-flourish">✦</span></h3><span id="resultCount"></span></div>
+        <p class="ingredients-note">تفاصيل المكونات للتعريف بالأطباق بحسب المنيو وطبيعة الوصفة؛ يُرجى تأكيد المكونات ومسببات الحساسية مع المطعم قبل الطلب.</p>
+        <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+        <div class="no-results" id="noResults" hidden><span>⌕</span><h3>ما لقينا أطباق بهذا الاسم</h3><p>جرّب تبحث باسم ثاني أو اختار قسم مختلف.</p><button type="button" class="btn btn-green" id="resetFilter">عرض كل الأصناف</button></div>
+        <div class="show-more-wrap"><button class="show-more" id="showMore" type="button" hidden>عرض المزيد من الأطباق <span aria-hidden="true">↓</span></button></div>
+      </div>
+    </section>
+    <section class="plans-section section-space" id="plans" aria-labelledby="planTitle"><div class="container plans-grid"><div class="plans-copy"><span class="section-kicker">صحتك تهمّنا</span><h2 id="planTitle">أكل صحي، <br><span>وأيام أريح.</span></h2><p>وجبات بيتية متوازنة مع خطط اشتراك تناسب يومك. خلي تجهيز أكلك علينا واستمتع بوقتك.</p><button type="button" class="text-link" data-filter-jump="healthy">شوف الوجبات الصحية <span>←</span></button><div class="plan-leaf" aria-hidden="true">❦</div></div><div class="plan-cards"><article class="plan-card"><span class="plan-duration">الاشتراك النصفي</span><p>15 يوم</p><div class="plan-price">50 <small>دينار</small></div><ul><li>توصيل يومي</li><li>وجبة رئيسية</li><li>سلطة ومقبلات</li></ul><button type="button" class="plan-button" data-plan="الاشتراك النصفي (15 يوم) - 50 دينار">استفسر عن الاشتراك <span>↖</span></button></article><article class="plan-card popular"><span class="popular-ribbon">قيمة أكبر ✦</span><span class="plan-duration">الاشتراك الشهري</span><p>30 يوم</p><div class="plan-price">100 <small>دينار</small></div><ul><li>توصيل يومي</li><li>وجبة رئيسية</li><li>سلطة ومقبلات</li></ul><button type="button" class="plan-button" data-plan="الاشتراك الشهري (30 يوم) - 100 دينار">استفسر عن الاشتراك <span>↖</span></button></article></div></div></section>
+    <section class="about-section section-space" id="about"><div class="container about-grid"><div class="about-images"><div class="about-image-big"><img src="assets/salad-1-1.webp" alt="سلطة الذرة الملونة" loading="lazy"></div><div class="about-image-small"><img src="assets/main-2-1.webp" alt="ملوخية على الطريقة البيتية" loading="lazy"></div><div class="about-stamp">بالمحبة <span>♥</span> ألذّ</div></div><div class="about-copy"><span class="section-kicker">حكاية نكهتنا</span><h2>لأن الأكل الطيب <br><span>بيبدأ من البيت.</span></h2><p>في <strong>زاد وملح</strong>، بنؤمن إن الوجبة الحلوة مش بس طعم... هي اهتمام بالتفاصيل، ومكونات طازجة، ولمسة بيتية بتخلي كل لقمة مميزة.</p><p>من أطباقنا الشعبية إلى السلطات والخيارات الصحية، بنحضّر كل طبق بمحبة وعلى أصوله.</p><div class="quote-box">«كل وجبة تحمل نكهة من بيتنا، لبيتك» <span>❧</span></div></div></div></section>
+    <section class="final-cta"><div class="container final-cta-inner"><span class="cta-ornament">❦</span><div><h2>جعان؟ أكلك الطيب بستنّاك!</h2><p>تصفّح القائمة وأضف الأطباق اللي بتحبها لطلباتك.</p></div><button type="button" class="btn btn-gold" id="footerCart">اعرض طلباتي <span>←</span></button></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">❧</span><span class="brand-text"><strong>زاد وملح</strong><small>مطبخ منزلي</small></span></a><p>مذاق أصيل، ومكونات مختارة، وأكل معمول بمحبة.</p></div><div class="footer-links"><h3>روابط سريعة</h3><a href="#top">الرئيسية</a><a href="#menu">قائمة الطعام</a><a href="#plans">الاشتراكات</a><a href="#about">عن مطبخنا</a></div><div class="footer-note"><h3>معلومة مهمة</h3><p>التوصيل حسب المنطقة، ويمكن تنفيذ الطلب وفق الوقت المطلوب وبعد التأكيد من المطعم.</p><p>الأسعار المعروضة من القائمة المرفقة وقابلة للتحديث.</p></div></div><div class="container copyright">© <span id="year"></span> زاد وملح – مطبخ منزلي. صُنع بكل حب <span>♥</span></div></footer>
+  <div class="drawer-overlay" id="drawerOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="سلة الطلبات" aria-hidden="true" tabindex="-1"><div class="drawer-header"><div><span class="section-kicker">من زاد وملح</span><h2>طلباتك <span id="drawerCount">(0)</span></h2></div><button class="close-drawer" id="cartClose" type="button" aria-label="إغلاق سلة الطلبات">×</button></div><div class="cart-items" id="cartItems"></div><div class="drawer-bottom"><div class="subtotal"><span>المجموع المبدئي</span><strong id="cartTotal">0.00 د.أ</strong></div><p class="price-note" id="priceNote">المجموع لا يشمل التوصيل، ويتم تأكيد السعر النهائي مع المطعم.</p><div class="order-fields"><label>الاسم <input type="text" id="clientName" maxlength="80" placeholder="اسمك (اختياري)"></label><label>المنطقة <input type="text" id="clientArea" maxlength="120" placeholder="مكان التوصيل (اختياري)"></label><label>ملاحظات الطلب <textarea id="clientNotes" maxlength="350" rows="2" placeholder="أي تفاصيل بتحب تضيفها؟"></textarea></label></div><button type="button" class="checkout-btn" id="shareOrder">إرسال الطلب عبر واتساب <span>↗</span></button><button type="button" class="copy-btn" id="copyOrder">نسخ الطلب كنص</button><p class="checkout-hint">سيتم فتح واتساب على رقم المطعم مع تفاصيل الطلب جاهزة. اضغط «إرسال» داخل واتساب لإكمال الطلب، وسيؤكد المطعم التوفر والسعر والتوصيل.</p></div></aside>
+  <button type="button" class="mobile-cart" id="mobileCart" aria-label="فتح الطلبات"><span>◧ طلباتي</span><span class="mobile-cart-total" id="mobileCartTotal">0.00 د.أ</span><span class="mobile-count" id="mobileCount">0</span></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script>const MENU = [
+  {
+    "id": "main-0-0",
+    "name": "كبسة",
+    "category": "main",
+    "image": "assets/main-0-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": true,
+    "description": "أرز كبسة متبّل بالبهارات مع الدجاج؛ طبق أرز غني بالنكهة يُقدّم ساخناً."
+  },
+  {
+    "id": "main-0-1",
+    "name": "منسف",
+    "category": "main",
+    "image": "assets/main-0-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 18
+      }
+    ],
+    "featured": true,
+    "description": "منسف أردني من الأرز واللحمة مع صلصة الجميد، بطابعه التقليدي المعروف."
+  },
+  {
+    "id": "main-0-2",
+    "name": "أوزي",
+    "category": "main",
+    "image": "assets/main-0-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 17
+      }
+    ],
+    "featured": true,
+    "description": "أرز أوزي متبّل مع البازيلاء والجزر وقطع اللحم، ويُزيَّن بالمكسرات."
+  },
+  {
+    "id": "main-0-3",
+    "name": "بخاري",
+    "category": "main",
+    "image": "assets/main-0-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": true,
+    "description": "أرز بخاري مع الجزر والبهارات والدجاج؛ نكهة أرز دافئة ومميزة."
+  },
+  {
+    "id": "main-1-0",
+    "name": "مقلوبة باذنجان",
+    "category": "main",
+    "image": "assets/main-1-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "مقلوبة أرز مع شرائح الباذنجان والدجاج، تُقدَّم بطبقاتها المقلوبة."
+  },
+  {
+    "id": "main-1-1",
+    "name": "مقلوبة شعيرية وجزر",
+    "category": "main",
+    "image": "assets/main-1-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "أرز بالشعيرية والجزر المتبّل، على طريقة المقلوبة المنزلية."
+  },
+  {
+    "id": "main-1-2",
+    "name": "مقلوبة بطاطا وزهرة",
+    "category": "main",
+    "image": "assets/main-1-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "مقلوبة أرز مع البطاطا والزهرة (القرنبيط) والبهارات."
+  },
+  {
+    "id": "main-1-3",
+    "name": "معكرونة فوتوتشيني",
+    "category": "main",
+    "image": "assets/main-1-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائط مكرونة فوتوتشيني مع صلصة كريمية ناعمة وتوابل خفيفة."
+  },
+  {
+    "id": "main-2-0",
+    "name": "بشاميل",
+    "category": "main",
+    "image": "assets/main-2-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "معكرونة مخبوزة بصلصة البشاميل، مع طبقة علوية ذهبية."
+  },
+  {
+    "id": "main-2-1",
+    "name": "ملوخية",
+    "category": "main",
+    "image": "assets/main-2-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "ملوخية خضراء مطبوخة مع الثوم والكزبرة؛ من الأكلات الشامية التقليدية."
+  },
+  {
+    "id": "main-2-2",
+    "name": "دجاج بالكريمة",
+    "category": "main",
+    "image": "assets/main-2-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "قطع دجاج مع صلصة كريمة غنية تُقدّم مع المعكرونة."
+  },
+  {
+    "id": "main-2-3",
+    "name": "فطيرة تركية بالدجاج",
+    "category": "main",
+    "image": "assets/main-2-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "فطيرة مخبوزة بحشوة الدجاج، ووجه ذهبي على الطريقة التركية."
+  },
+  {
+    "id": "main-3-0",
+    "name": "شاورما عادي",
+    "category": "main",
+    "image": "assets/main-3-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائح شاورما دجاج متبّلة وملفوفة بالخبز مع الإضافات."
+  },
+  {
+    "id": "main-3-1",
+    "name": "شاورما إيطالي",
+    "category": "main",
+    "image": "assets/main-3-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "شاورما دجاج بنكهة إيطالية، مع المعكرونة والصوص."
+  },
+  {
+    "id": "main-3-2",
+    "name": "فاهيتا",
+    "category": "main",
+    "image": "assets/main-3-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائح فاهيتا متبّلة مع الفلفل الملوّن والبصل والخضار."
+  },
+  {
+    "id": "main-3-3",
+    "name": "باميا باللحمة والصلصة",
+    "category": "main",
+    "image": "assets/main-3-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "باميا مطبوخة مع قطع اللحمة بصلصة البندورة الغنية."
+  },
+  {
+    "id": "main-4-0",
+    "name": "فاصوليا باللحمة والصلصة",
+    "category": "main",
+    "image": "assets/main-4-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "فاصوليا مطبوخة مع قطع اللحمة وصلصة البندورة."
+  },
+  {
+    "id": "main-4-1",
+    "name": "مسخن",
+    "category": "main",
+    "image": "assets/main-4-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "مسخّن فلسطيني بالدجاج والبصل والسماق وزيت الزيتون على الخبز."
+  },
+  {
+    "id": "main-4-2",
+    "name": "رولات مسخن",
+    "category": "main",
+    "image": "assets/main-4-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 17
+      }
+    ],
+    "featured": false,
+    "description": "رولات خبز محشوة بالدجاج والبصل والسماق، بنكهة المسخّن."
+  },
+  {
+    "id": "salad-0-0",
+    "name": "فتوش بيتي",
+    "category": "salad",
+    "image": "assets/salad-0-0.webp",
+    "description": "خيار وبندورة وخضار طازجة مع خبز محمّص، ودبس رمان وسماق.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-0-1",
+    "name": "تبولة شامية",
+    "category": "salad",
+    "image": "assets/salad-0-1.webp",
+    "description": "بقدونس مفروم وبندورة وبرغل ناعم، بتتبيلة الليمون وزيت الزيتون.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-0-2",
+    "name": "كول سلو كريمي",
+    "category": "salad",
+    "image": "assets/salad-0-2.webp",
+    "description": "ملفوف وجزر مبشوران مع صوص كريمي؛ سلطة باردة ومقرمشة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.25
+      },
+      {
+        "name": "عائلي",
+        "price": 2.5
+      }
+    ]
+  },
+  {
+    "id": "salad-0-3",
+    "name": "خيار باللبن",
+    "category": "salad",
+    "image": "assets/salad-0-3.webp",
+    "description": "خيار مقطّع مع اللبن والنعنع والثوم؛ سلطة باردة ومنعشة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1
+      },
+      {
+        "name": "عائلي",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "id": "salad-1-0",
+    "name": "سلطة عربية",
+    "category": "salad",
+    "image": "assets/salad-1-0.webp",
+    "description": "خيار وبندورة وخس وبصل مع عصير الليمون الطازج.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1
+      },
+      {
+        "name": "عائلي",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "id": "salad-1-1",
+    "name": "سلطة الذرة الملونة",
+    "category": "salad",
+    "image": "assets/salad-1-1.webp",
+    "description": "حبات ذرة حلوة مع الخضار والفلفل الملوّن وصوص السلطة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-1-2",
+    "name": "سلطة المعكرونة",
+    "category": "salad",
+    "image": "assets/salad-1-2.webp",
+    "description": "معكرونة مع خضار مقطّعة وصوص كريمي.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.75
+      },
+      {
+        "name": "عائلي",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "salad-1-3",
+    "name": "سلطة الشمندر المميزة",
+    "category": "salad",
+    "image": "assets/salad-1-3.webp",
+    "description": "شمندر مع جرجير وجبنة وجوز، وتتبيلة خفيفة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 2
+      },
+      {
+        "name": "عائلي",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-0",
+    "name": "دجاج مشوي مع الكينوا",
+    "category": "healthy",
+    "image": "assets/healthy-0-0.webp",
+    "description": "صدر دجاج مشوي مع الكينوا والخضار المشوية.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-1",
+    "name": "سمك مشوي مع الخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-1.webp",
+    "description": "سمك مشوي مع الخضار، ويُقدّم مع كينوا أو أرز بني.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-2",
+    "name": "دجاج بالفرن مع الخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-2.webp",
+    "description": "قطع دجاج متبّلة ومخبوزة بالفرن مع خضار وأرز بني.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-3",
+    "name": "دجاج سوتيه بالخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-3.webp",
+    "description": "قطع دجاج سوتيه مع الخضار الطازجة وصلصة خفيفة.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-0",
+    "name": "سلطة الكينوا",
+    "category": "healthy",
+    "image": "assets/healthy-1-0.webp",
+    "description": "كينوا مع خضار طازجة وأفوكادو وبذور متنوعة.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-1",
+    "name": "سلطة العدس",
+    "category": "healthy",
+    "image": "assets/healthy-1-1.webp",
+    "description": "عدس مسلوق مع الخضار الموسمية وتتبيلة الليمون.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-2",
+    "name": "فلفل محشي صحي",
+    "category": "healthy",
+    "image": "assets/healthy-1-2.webp",
+    "description": "حبات فلفل ملوّن محشوة بالأرز البني والخضار.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-3",
+    "name": "معكرونة بالخضار",
+    "category": "healthy",
+    "image": "assets/healthy-1-3.webp",
+    "description": "معكرونة قمح كامل مع خضار وصوص خفيف.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-0",
+    "name": "حمص",
+    "category": "app",
+    "image": "assets/app-0.webp",
+    "description": "حمص مهروس يُقدَّم مع زيت الزيتون.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-1",
+    "name": "متبل باذنجان",
+    "category": "app",
+    "image": "assets/app-1.webp",
+    "description": "باذنجان مشوي ومهروس مع الطحينة.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-2",
+    "name": "لبنة",
+    "category": "app",
+    "image": "assets/app-2.webp",
+    "description": "لبنة طازجة مزينة بزيت الزيتون.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-3",
+    "name": "ورق عنب",
+    "category": "app",
+    "image": "assets/app-3.webp",
+    "description": "ورق عنب محشي بالأرز والتوابل، يُقدَّم كمقبلات.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  }
+];</script>
+  <script src="app.js"></script>
+</body>
+</html>

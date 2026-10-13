@@ -1,0 +1,712 @@
+[
+  {
+    "id": "main-0-0",
+    "name": "كبسة",
+    "category": "main",
+    "image": "assets/main-0-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": true,
+    "description": "أرز كبسة متبّل بالبهارات مع الدجاج؛ طبق أرز غني بالنكهة يُقدّم ساخناً."
+  },
+  {
+    "id": "main-0-1",
+    "name": "منسف",
+    "category": "main",
+    "image": "assets/main-0-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 18
+      }
+    ],
+    "featured": true,
+    "description": "منسف أردني من الأرز واللحمة مع صلصة الجميد، بطابعه التقليدي المعروف."
+  },
+  {
+    "id": "main-0-2",
+    "name": "أوزي",
+    "category": "main",
+    "image": "assets/main-0-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 17
+      }
+    ],
+    "featured": true,
+    "description": "أرز أوزي متبّل مع البازيلاء والجزر وقطع اللحم، ويُزيَّن بالمكسرات."
+  },
+  {
+    "id": "main-0-3",
+    "name": "بخاري",
+    "category": "main",
+    "image": "assets/main-0-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": true,
+    "description": "أرز بخاري مع الجزر والبهارات والدجاج؛ نكهة أرز دافئة ومميزة."
+  },
+  {
+    "id": "main-1-0",
+    "name": "مقلوبة باذنجان",
+    "category": "main",
+    "image": "assets/main-1-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "مقلوبة أرز مع شرائح الباذنجان والدجاج، تُقدَّم بطبقاتها المقلوبة."
+  },
+  {
+    "id": "main-1-1",
+    "name": "مقلوبة شعيرية وجزر",
+    "category": "main",
+    "image": "assets/main-1-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "أرز بالشعيرية والجزر المتبّل، على طريقة المقلوبة المنزلية."
+  },
+  {
+    "id": "main-1-2",
+    "name": "مقلوبة بطاطا وزهرة",
+    "category": "main",
+    "image": "assets/main-1-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "مقلوبة أرز مع البطاطا والزهرة (القرنبيط) والبهارات."
+  },
+  {
+    "id": "main-1-3",
+    "name": "معكرونة فوتوتشيني",
+    "category": "main",
+    "image": "assets/main-1-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائط مكرونة فوتوتشيني مع صلصة كريمية ناعمة وتوابل خفيفة."
+  },
+  {
+    "id": "main-2-0",
+    "name": "بشاميل",
+    "category": "main",
+    "image": "assets/main-2-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 14
+      }
+    ],
+    "featured": false,
+    "description": "معكرونة مخبوزة بصلصة البشاميل، مع طبقة علوية ذهبية."
+  },
+  {
+    "id": "main-2-1",
+    "name": "ملوخية",
+    "category": "main",
+    "image": "assets/main-2-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "ملوخية خضراء مطبوخة مع الثوم والكزبرة؛ من الأكلات الشامية التقليدية."
+  },
+  {
+    "id": "main-2-2",
+    "name": "دجاج بالكريمة",
+    "category": "main",
+    "image": "assets/main-2-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "قطع دجاج مع صلصة كريمة غنية تُقدّم مع المعكرونة."
+  },
+  {
+    "id": "main-2-3",
+    "name": "فطيرة تركية بالدجاج",
+    "category": "main",
+    "image": "assets/main-2-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "فطيرة مخبوزة بحشوة الدجاج، ووجه ذهبي على الطريقة التركية."
+  },
+  {
+    "id": "main-3-0",
+    "name": "شاورما عادي",
+    "category": "main",
+    "image": "assets/main-3-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائح شاورما دجاج متبّلة وملفوفة بالخبز مع الإضافات."
+  },
+  {
+    "id": "main-3-1",
+    "name": "شاورما إيطالي",
+    "category": "main",
+    "image": "assets/main-3-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "شاورما دجاج بنكهة إيطالية، مع المعكرونة والصوص."
+  },
+  {
+    "id": "main-3-2",
+    "name": "فاهيتا",
+    "category": "main",
+    "image": "assets/main-3-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "شرائح فاهيتا متبّلة مع الفلفل الملوّن والبصل والخضار."
+  },
+  {
+    "id": "main-3-3",
+    "name": "باميا باللحمة والصلصة",
+    "category": "main",
+    "image": "assets/main-3-3.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "باميا مطبوخة مع قطع اللحمة بصلصة البندورة الغنية."
+  },
+  {
+    "id": "main-4-0",
+    "name": "فاصوليا باللحمة والصلصة",
+    "category": "main",
+    "image": "assets/main-4-0.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 15
+      }
+    ],
+    "featured": false,
+    "description": "فاصوليا مطبوخة مع قطع اللحمة وصلصة البندورة."
+  },
+  {
+    "id": "main-4-1",
+    "name": "مسخن",
+    "category": "main",
+    "image": "assets/main-4-1.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 16
+      }
+    ],
+    "featured": false,
+    "description": "مسخّن فلسطيني بالدجاج والبصل والسماق وزيت الزيتون على الخبز."
+  },
+  {
+    "id": "main-4-2",
+    "name": "رولات مسخن",
+    "category": "main",
+    "image": "assets/main-4-2.webp",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 3.5
+      },
+      {
+        "name": "ثنائي",
+        "price": 6
+      },
+      {
+        "name": "عائلي (5 أشخاص)",
+        "price": 17
+      }
+    ],
+    "featured": false,
+    "description": "رولات خبز محشوة بالدجاج والبصل والسماق، بنكهة المسخّن."
+  },
+  {
+    "id": "salad-0-0",
+    "name": "فتوش بيتي",
+    "category": "salad",
+    "image": "assets/salad-0-0.webp",
+    "description": "خيار وبندورة وخضار طازجة مع خبز محمّص، ودبس رمان وسماق.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-0-1",
+    "name": "تبولة شامية",
+    "category": "salad",
+    "image": "assets/salad-0-1.webp",
+    "description": "بقدونس مفروم وبندورة وبرغل ناعم، بتتبيلة الليمون وزيت الزيتون.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-0-2",
+    "name": "كول سلو كريمي",
+    "category": "salad",
+    "image": "assets/salad-0-2.webp",
+    "description": "ملفوف وجزر مبشوران مع صوص كريمي؛ سلطة باردة ومقرمشة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.25
+      },
+      {
+        "name": "عائلي",
+        "price": 2.5
+      }
+    ]
+  },
+  {
+    "id": "salad-0-3",
+    "name": "خيار باللبن",
+    "category": "salad",
+    "image": "assets/salad-0-3.webp",
+    "description": "خيار مقطّع مع اللبن والنعنع والثوم؛ سلطة باردة ومنعشة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1
+      },
+      {
+        "name": "عائلي",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "id": "salad-1-0",
+    "name": "سلطة عربية",
+    "category": "salad",
+    "image": "assets/salad-1-0.webp",
+    "description": "خيار وبندورة وخس وبصل مع عصير الليمون الطازج.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1
+      },
+      {
+        "name": "عائلي",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "id": "salad-1-1",
+    "name": "سلطة الذرة الملونة",
+    "category": "salad",
+    "image": "assets/salad-1-1.webp",
+    "description": "حبات ذرة حلوة مع الخضار والفلفل الملوّن وصوص السلطة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.5
+      },
+      {
+        "name": "عائلي",
+        "price": 3
+      }
+    ]
+  },
+  {
+    "id": "salad-1-2",
+    "name": "سلطة المعكرونة",
+    "category": "salad",
+    "image": "assets/salad-1-2.webp",
+    "description": "معكرونة مع خضار مقطّعة وصوص كريمي.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 1.75
+      },
+      {
+        "name": "عائلي",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "salad-1-3",
+    "name": "سلطة الشمندر المميزة",
+    "category": "salad",
+    "image": "assets/salad-1-3.webp",
+    "description": "شمندر مع جرجير وجبنة وجوز، وتتبيلة خفيفة.",
+    "sizes": [
+      {
+        "name": "فردي",
+        "price": 2
+      },
+      {
+        "name": "عائلي",
+        "price": 4
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-0",
+    "name": "دجاج مشوي مع الكينوا",
+    "category": "healthy",
+    "image": "assets/healthy-0-0.webp",
+    "description": "صدر دجاج مشوي مع الكينوا والخضار المشوية.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-1",
+    "name": "سمك مشوي مع الخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-1.webp",
+    "description": "سمك مشوي مع الخضار، ويُقدّم مع كينوا أو أرز بني.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-2",
+    "name": "دجاج بالفرن مع الخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-2.webp",
+    "description": "قطع دجاج متبّلة ومخبوزة بالفرن مع خضار وأرز بني.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-0-3",
+    "name": "دجاج سوتيه بالخضار",
+    "category": "healthy",
+    "image": "assets/healthy-0-3.webp",
+    "description": "قطع دجاج سوتيه مع الخضار الطازجة وصلصة خفيفة.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-0",
+    "name": "سلطة الكينوا",
+    "category": "healthy",
+    "image": "assets/healthy-1-0.webp",
+    "description": "كينوا مع خضار طازجة وأفوكادو وبذور متنوعة.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-1",
+    "name": "سلطة العدس",
+    "category": "healthy",
+    "image": "assets/healthy-1-1.webp",
+    "description": "عدس مسلوق مع الخضار الموسمية وتتبيلة الليمون.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-2",
+    "name": "فلفل محشي صحي",
+    "category": "healthy",
+    "image": "assets/healthy-1-2.webp",
+    "description": "حبات فلفل ملوّن محشوة بالأرز البني والخضار.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "healthy-1-3",
+    "name": "معكرونة بالخضار",
+    "category": "healthy",
+    "image": "assets/healthy-1-3.webp",
+    "description": "معكرونة قمح كامل مع خضار وصوص خفيف.",
+    "sizes": [
+      {
+        "name": "وجبة لشخص واحد",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-0",
+    "name": "حمص",
+    "category": "app",
+    "image": "assets/app-0.webp",
+    "description": "حمص مهروس يُقدَّم مع زيت الزيتون.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-1",
+    "name": "متبل باذنجان",
+    "category": "app",
+    "image": "assets/app-1.webp",
+    "description": "باذنجان مشوي ومهروس مع الطحينة.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-2",
+    "name": "لبنة",
+    "category": "app",
+    "image": "assets/app-2.webp",
+    "description": "لبنة طازجة مزينة بزيت الزيتون.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "app-3",
+    "name": "ورق عنب",
+    "category": "app",
+    "image": "assets/app-3.webp",
+    "description": "ورق عنب محشي بالأرز والتوابل، يُقدَّم كمقبلات.",
+    "sizes": [
+      {
+        "name": "وجبة",
+        "price": null
+      }
+    ]
+  }
+]
